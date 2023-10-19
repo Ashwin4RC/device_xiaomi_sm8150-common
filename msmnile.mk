@@ -401,6 +401,7 @@ PRODUCT_PACKAGES += \
 ifeq ($(BOARD_HAVE_RIL),true)
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat \
     librmnetctl \
     libxml2
 
